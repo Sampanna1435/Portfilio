@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>Sampanna'sPortfolio</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cormorant+Garamond&family=Dancing+Script&display=swap"
+        rel="stylesheet">
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <main class="content">
+
+            <header class="header">
+                <div class="header-inner">
+                    <p class="header-title">Hi, This is <br>Sampanna</p>
+                    <img src="./image/img1.jpeg" alt="Your Image" class="header-image">
+                    <p class="header-subtitle">Subedi <br>Portfolio</p>
+                </div>
+            </header>
+            <nav class="gnav">
+                <div class="gnav-inner">
+                    <ul class="gnav-list">
+                        <li class="gnav-item"><a href="#works">WORKS</a></li>
+                        <li class="gnav-item"><a href="#about">ABOUT</a></li>
+                        <li class="gnav-item"><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="menu-btn" onclick="toggleMenu()">
+                    <div class="btn-line"></div>
+                    <div class="btn-line"></div>
+                    <div class="btn-line"></div>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a href="./about.html">ABOUT</a></li>
+                        <li><a href="./work.html">WORKS</a></li>
+                    </ul>
+                </nav>
+            </nav>
+
+            <section class="about" id="about">
+                <div class="about__inner">
+                    <div class="about__flex">
+                        <img src="./image/img2.jpeg" alt="mypic" class="about__img">
+                        <div class="about__info">
+                            <h2 class="works__title">ABOUT</h2>
+                            <div class="about__info">
+                                <dl class="abouts__dl">
+                                    <dt class="abouts__dt">スベディ・サムパンナ <br><span class="abouts__eng">Subedi
+                                            Sampanna</span></dt>
+                                    <dt class="abouts__dd">2004年11月30日 (19)</dt>
+                                    <dt class="abouts__dd">トライデントコンピュータ専門学校</dt>
+                                    <dt class="abouts__web">Webデザイン学科2年</dt>
+                                </dl>
+                            </div>
+
+                            <a href="./about.html" class="work__btn btn">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="works" id="works">
+                <h2 class="works__title">WORKS</h2>
+                <div class="works__flex">
+                    <div class="works__card">
+                        <a href="./portfolio.html">
+                            <div class="works__box">
+                                <img class="works__img" src="./image/portfolio.png" alt="">
+                            </div>
+                            <p class="works__sub">PORTFOLIO</p>
+                        </a>
+                    </div>
+                    <div class="works__card">
+                        <a href="./royalnanhouse.html">
+                            <div class="works__box">
+                                <img class="works__img" src="./image/royalnanhouse.png" alt="">
+                            </div>
+                            <p class="works__sub">ROYALNANHOUSE</p>
+                        </a>
+                    </div>
+                    <div class="works__card">
+                        <a href="./manga.html">
+                            <div class="works__box">
+                                <img class="works__img" src="./image/manga.png" alt="">
+                            </div>
+                            <p class="works__sub">MANGA</p>
+                        </a>
+                    </div>
+                    <div class="works__card">
+                        <a href="./cafe.html">
+                            <div class="works__box">
+                                <img class="works__img" src="./image/cafe.png" alt="">
+                            </div>
+                            <p class="works__sub">TRIDENTCAFE</p>
+                        </a>
+                    </div>
+                    <a href="./work.html" class="work__btn btn">More Works</a>
+            </section>
+            <section class="contact" id="contact">
+                <h2 class="works__title">CONTACT</h2>
+                <p class="contact__text">お気軽にお問合せください。</p>
+                <a href="mailto:sampannasubedi9@gmail.com">
+                    <p class="contact__link">Send Mail</p>
+                </a>
+            </section>
+        </main>
+
+
+        <footer class="footer">
+            <div class="copyright">&copy;sampanna subedi</div>
+            <nav class="gnav1">
+                <div class="gnav-inner">
+                    <ul class="gnav-list">
+                        <li class="gnav-item"><a href="#works">WORKS</a></li>
+                        <li class="gnav-item"><a href="#about">ABOUT</a></li>
+                        <li class="gnav-item"><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </footer>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type='text/javascript' src="./js/script.js"></script>
+</body>
+
+</html>
